@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://addons/script_panel_plus/script_panel/script_panel.gd" id="1_b1kur"]
 [ext_resource type="Script" path="res://addons/script_panel_plus/script_panel/script_list.gd" id="2_g67jx"]
 
-[sub_resource type="Image" id="Image_h3ecs"]
+[sub_resource type="Image" id="Image_x2rbk"]
 data = {
 "data": PackedByteArray(255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 255, 255, 0, 255, 94, 94, 127, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 255, 255, 0, 255, 93, 93, 255, 255, 94, 94, 127, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 94, 94, 127, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 94, 94, 127, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 231, 255, 94, 94, 54, 255, 94, 94, 57, 255, 93, 93, 233, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 231, 255, 94, 94, 54, 255, 94, 94, 57, 255, 93, 93, 233, 255, 93, 93, 255, 255, 93, 93, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 97, 97, 42, 255, 255, 255, 0, 255, 255, 255, 0, 255, 97, 97, 42, 255, 93, 93, 233, 255, 93, 93, 232, 255, 93, 93, 41, 255, 255, 255, 0, 255, 255, 255, 0, 255, 97, 97, 42, 255, 93, 93, 233, 255, 93, 93, 232, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 96, 96, 45, 255, 93, 93, 44, 255, 255, 255, 0, 255, 97, 97, 42, 255, 97, 97, 42, 255, 255, 255, 0, 255, 96, 96, 45, 255, 93, 93, 44, 255, 255, 255, 0, 255, 97, 97, 42, 255, 97, 97, 42, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 96, 96, 45, 255, 93, 93, 235, 255, 94, 94, 234, 255, 95, 95, 43, 255, 255, 255, 0, 255, 255, 255, 0, 255, 96, 96, 45, 255, 93, 93, 235, 255, 94, 94, 234, 255, 95, 95, 43, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 235, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 233, 255, 95, 95, 59, 255, 96, 96, 61, 255, 93, 93, 235, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 233, 255, 95, 95, 59, 255, 96, 96, 61, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 93, 93, 255, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0, 255, 255, 255, 0),
 "format": "RGBA8",
@@ -12,8 +12,8 @@ data = {
 "width": 16
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_cti5c"]
-image = SubResource("Image_h3ecs")
+[sub_resource type="ImageTexture" id="ImageTexture_ptau0"]
+image = SubResource("Image_x2rbk")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_06sl4"]
 
@@ -42,9 +42,9 @@ font_color = Color(1, 1, 1, 0.564706)
 font_size = 13
 font_color = Color(1, 1, 1, 0.564706)
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kaxoe"]
-
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pnhwh"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kaxoe"]
 
 [node name="ScriptPanel" type="HBoxContainer"]
 clip_contents = true
@@ -84,7 +84,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 placeholder_text = "Search"
 clear_button_enabled = true
-right_icon = SubResource("ImageTexture_cti5c")
+right_icon = SubResource("ImageTexture_ptau0")
 select_all_on_focus = true
 
 [node name="MenuButton" type="MenuButton" parent="VBoxContainer/SearchBar"]
@@ -96,7 +96,6 @@ flat = false
 item_count = 5
 popup/item_0/text = "No Sorting"
 popup/item_0/checkable = 2
-popup/item_0/id = 0
 popup/item_1/text = "Sort: Name"
 popup/item_1/checkable = 2
 popup/item_1/id = 1
@@ -104,7 +103,6 @@ popup/item_2/text = "Sort: Date"
 popup/item_2/checkable = 2
 popup/item_2/checked = true
 popup/item_2/id = 2
-popup/item_3/text = ""
 popup/item_3/id = 3
 popup/item_3/disabled = true
 popup/item_3/separator = true
@@ -122,9 +120,9 @@ split_offset = -200
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-theme_override_constants/h_separation = 3
-theme_override_constants/v_separation = 0
 theme_override_constants/line_separation = 0
+theme_override_constants/v_separation = 0
+theme_override_constants/h_separation = 3
 theme_override_font_sizes/font_size = 16
 theme_override_styles/focus = SubResource("StyleBoxEmpty_06sl4")
 theme_override_styles/hovered = SubResource("StyleBoxFlat_gcjfv")
@@ -150,7 +148,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 placeholder_text = "Search"
 clear_button_enabled = true
-right_icon = SubResource("ImageTexture_cti5c")
+right_icon = SubResource("ImageTexture_ptau0")
 select_all_on_focus = true
 
 [node name="MenuButton" type="MenuButton" parent="VBoxContainer/VSplitContainer/MethodListContainer/SearchBar"]
@@ -163,7 +161,6 @@ item_count = 2
 popup/item_0/text = "No Sorting"
 popup/item_0/checkable = 2
 popup/item_0/checked = true
-popup/item_0/id = 0
 popup/item_1/text = "Sort: Name"
 popup/item_1/checkable = 2
 popup/item_1/id = 1
@@ -249,8 +246,8 @@ size_flags_vertical = 4
 tooltip_text = "Hide Panel"
 theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 12
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_kaxoe")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_pnhwh")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_kaxoe")
 text = "<"
 flat = true
 
@@ -262,8 +259,8 @@ size_flags_vertical = 4
 tooltip_text = "Distraction Free Mode"
 theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 12
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_kaxoe")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_pnhwh")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_kaxoe")
 text = "#"
 flat = true
 

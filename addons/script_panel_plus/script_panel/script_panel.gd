@@ -514,7 +514,8 @@ func get_error_label(script_editor: ScriptEditorBase) -> Label:
 	return result
 
 func get_line_label(script_editor: ScriptEditorBase)  -> Label:
-	var result: Label = script_editor.get_child(0).get_child(0).get_child(1).get_child(4) as Label
+	var result: Label = script_editor.get_child(0).get_child(0).get_child(1).get_child(7) as Label
+	#print(script_editor.get_child(0).get_child(0).get_child(1).get_children())
 	return result
 
 func engine_list_close_current() -> void:
